@@ -9,8 +9,23 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Just Do It</description>
-    <pubDate>Thu, 21 Mar 2024 06:50:12 GMT</pubDate>
+    <pubDate>Thu, 21 Mar 2024 11:12:46 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>index</title>
+      <link>http://example.com/2024/03/21/index/</link>
+      <guid>http://example.com/2024/03/21/index/</guid>
+      <pubDate>Thu, 21 Mar 2024 11:12:46 GMT</pubDate>
+      
+      
+      
+      
+      
+      
+      <comments>http://example.com/2024/03/21/index/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>第1篇博客：Markdown初级语法</title>
