@@ -1,14 +1,1 @@
-/* footer样式 */
-#footer {
-    background: #fff;
-    /* background: #fff url("/images/footer.jpg"); */
-    /* opacity: 0.3; */
-}
-#footer-wrap {
-    padding: 20px 20px;
-    /* color: var(--light-grey); */
-    color: #000;
-}
-#footer-wrap a{
-    color: #49b1f5;
-}
+#footer{background:#fff}#footer-wrap{padding:20px;color:#000}#footer-wrap a{color:#49b1f5}
