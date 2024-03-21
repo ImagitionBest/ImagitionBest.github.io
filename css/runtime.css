@@ -1,7 +1,7 @@
 div#runtime {
     width: fit-content;
     color: #fff;
-    padding: 0 10px;
+    padding: 0 30px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.7);
 }
