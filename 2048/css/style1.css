@@ -29,7 +29,7 @@
 }
 #header .score-wrapper #txt{
 	color:#ffffff;
-	font:bold 20px Arial;
+	font:bold 25px Arial;
 	vertical-align:middle;
 }
 #header .score-wrapper #score{
@@ -47,6 +47,7 @@
 	border-radius:6px;
 	color:#fff;
 	font:bold 19px Arial;
+	margin: 15px 0px 0px 0px;
 
 }
 #header .newgame-wrapper #newGame:hover{
