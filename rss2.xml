@@ -9,14 +9,14 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Just Do It</description>
-    <pubDate>Thu, 21 Mar 2024 06:50:12 GMT</pubDate>
+    <pubDate>Thu, 21 Mar 2024 13:10:42 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>第1篇博客：Markdown初级语法</title>
       <link>http://example.com/2024/03/21/%E7%AC%AC1%E7%AF%87%E5%8D%9A%E5%AE%A2%EF%BC%9AMarkdown%E5%88%9D%E7%BA%A7%E8%AF%AD%E6%B3%95/</link>
       <guid>http://example.com/2024/03/21/%E7%AC%AC1%E7%AF%87%E5%8D%9A%E5%AE%A2%EF%BC%9AMarkdown%E5%88%9D%E7%BA%A7%E8%AF%AD%E6%B3%95/</guid>
-      <pubDate>Thu, 21 Mar 2024 06:29:00 GMT</pubDate>
+      <pubDate>Thu, 21 Mar 2024 13:08:00 GMT</pubDate>
       
         
         
@@ -30,6 +30,12 @@
       <content:encoded><![CDATA[<p>欢迎阅读第1篇博客，希望你有所收获！</p><h2 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h2><ul><li>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档；</li><li>Markdown 语言是2004年由约翰·格鲁伯创建；</li><li>Markdown 编写的文档可以导出 HTML、Word、图像、PDF、Epub等多种格式的文档；</li><li>Markdown 编写的文档后缀为.md或.markdown；</li><li>Markdown 能被使用用来撰写电子书，如: Gitbook;</li></ul><hr>]]></content:encoded>
       
       
+      <category domain="http://example.com/categories/Markdown/">Markdown</category>
+      
+      
+      <category domain="http://example.com/tags/%E8%AF%AD%E6%B3%95%E6%80%BB%E7%BB%93/">语法总结</category>
+      
+      <category domain="http://example.com/tags/%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/">持续更新</category>
       
       
       <comments>http://example.com/2024/03/21/%E7%AC%AC1%E7%AF%87%E5%8D%9A%E5%AE%A2%EF%BC%9AMarkdown%E5%88%9D%E7%BA%A7%E8%AF%AD%E6%B3%95/#disqus_thread</comments>

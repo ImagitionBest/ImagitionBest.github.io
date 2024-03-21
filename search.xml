@@ -11,6 +11,20 @@
         <content type="html"><![CDATA[<p>欢迎阅读第1篇博客，希望你有所收获！</p><h2 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h2><ul><li>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档；</li><li>Markdown 语言是2004年由约翰·格鲁伯创建；</li><li>Markdown 编写的文档可以导出 HTML、Word、图像、PDF、Epub等多种格式的文档；</li><li>Markdown 编写的文档后缀为.md或.markdown；</li><li>Markdown 能被使用用来撰写电子书，如: Gitbook;</li></ul><hr>]]></content>
       
       
+      <categories>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 语法总结 </tag>
+            
+            <tag> 持续更新 </tag>
+            
+        </tags>
       
     </entry>
     
