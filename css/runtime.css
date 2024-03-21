@@ -1,6 +1,7 @@
 div#runtime {
     width: fit-content;
     color: #fff;
+    margin: 0 auto;
     padding: 0 10px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.7);
