@@ -3765,17 +3765,14 @@ h1.page-title + .tag-cloud-list {
 #nav .menus_items {
   display: inline;
 }
-#nav .menus_items .menus_item,
 #nav .menus_items .icat_menus_item {
   position: relative;
   display: inline-block;
   padding: 0 0 0 14px;
 }
-#nav .menus_items .menus_item:hover .menus_item_child,
 #nav .menus_items .icat_menus_item:hover .menus_item_child {
   display: block;
 }
-#nav .menus_items .menus_item:hover > a > i:last-child,
 #nav .menus_items .icat_menus_item:hover > a > i:last-child {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -3783,7 +3780,6 @@ h1.page-title + .tag-cloud-list {
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-#nav .menus_items .menus_item > a > i:last-child,
 #nav .menus_items .icat_menus_item > a > i:last-child {
   padding: 4px;
   -webkit-transition: -webkit-transform 0.3s;
@@ -3792,7 +3788,6 @@ h1.page-title + .tag-cloud-list {
   -ms-transition: -ms-transform 0.3s;
   transition: transform 0.3s;
 }
-#nav .menus_items .menus_item .menus_item_child,
 #nav .menus_items .icat_menus_item .menus_item_child {
   position: absolute;
   right: 0;
@@ -3810,7 +3805,6 @@ h1.page-title + .tag-cloud-list {
   -ms-animation: sub_menus 0.3s 0.1s ease both;
   animation: sub_menus 0.3s 0.1s ease both;
 }
-#nav .menus_items .menus_item .menus_item_child:before,
 #nav .menus_items .icat_menus_item .menus_item_child:before {
   position: absolute;
   top: -8px;
@@ -3819,25 +3813,20 @@ h1.page-title + .tag-cloud-list {
   height: 20px;
   content: '';
 }
-#nav .menus_items .menus_item .menus_item_child li,
 #nav .menus_items .icat_menus_item .menus_item_child li {
   list-style: none;
 }
-#nav .menus_items .menus_item .menus_item_child li:hover,
 #nav .menus_items .icat_menus_item .menus_item_child li:hover {
   background: var(--text-bg-hover);
 }
-#nav .menus_items .menus_item .menus_item_child li:first-child,
 #nav .menus_items .icat_menus_item .menus_item_child li:first-child {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-#nav .menus_items .menus_item .menus_item_child li:last-child,
 #nav .menus_items .icat_menus_item .menus_item_child li:last-child {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-#nav .menus_items .menus_item .menus_item_child li a,
 #nav .menus_items .icat_menus_item .menus_item_child li a {
   display: inline-block;
   padding: 8px 16px;
