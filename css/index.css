@@ -7801,7 +7801,7 @@ h1.page-title + .tag-cloud-list {
   margin: 20px auto;
 }
 #sidebar #sidebar-menus .menus_items {
-  padding: 0 10px;
+  padding: 0 10px 40px;
 }
 #sidebar #sidebar-menus .menus_items .menus_item {
   margin: 10px 0;
