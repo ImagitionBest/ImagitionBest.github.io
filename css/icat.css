@@ -239,3 +239,32 @@
   
 /* PE端菜单栏美化 */
 
+#nav #menus {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    transform: translateZ(0);
+}
+#nav #blog-info {
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    z-index: 102;
+    max-width: fit-content;
+}
+@media screen and (max-width: 900px) {
+    #nav {
+        padding: 0 15px;
+    }
+    #nav-group {
+        padding: 0 0.2rem;
+    }
+    #rightside {
+        right: -42px;
+    }
+}
+/* IPAD菜单栏调整 */
+
