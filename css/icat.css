@@ -7,7 +7,7 @@
 }
 /* 菜单栏居中 */
 
-/* #blog-info a:hover {
+#blog-info a:hover {
     background: var(--icat-blue);
     transition: background .3s;
     border-radius: 8px;
@@ -45,7 +45,7 @@
     #blog-info a:hover .site-name:after {
         display: none;
     }
-} */
+}
 /* 主页按钮 */
 
 #nav.show {
