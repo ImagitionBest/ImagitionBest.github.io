@@ -29,7 +29,7 @@
 }
 /*子菜单横向布局*/
 
-#site-name:hover:after{
+#site-name a:hover{
     opacity: 0;
     background-color: var(--lyx-theme)!important;
     border-radius: 8px;
@@ -55,7 +55,7 @@
     line-height:34px;/*如果有溢出或者垂直不居中的现象微调一下这个参数*/
     font-size: 18px;/*根据个人喜好*/
 }
-#site-name:hover::after{
+#site-name a:hover{
     opacity: 1;
     scale:1.03;
 }
