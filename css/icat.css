@@ -157,7 +157,7 @@
     border-radius: 12px;
     border: var(--style-border-always);
     background: var(--icat-card-bg);
-    font-size: 14px;
+    font-size: 20px; /*修改字号大小14px*/
 }
 #nav.hide-menu #toggle-menu {
     padding: 0 0 0 12px;
@@ -185,7 +185,7 @@
     align-items: center;
     padding: 8px 0;
     border-radius: 12px;
-    font-size: 14px;
+    font-size: 20px; /*修改字号大小14px*/
 }
 @media screen and (max-width: 768px) {
     #sidebar #sidebar-menus .menus_items .site-page.group > i:last-child {
