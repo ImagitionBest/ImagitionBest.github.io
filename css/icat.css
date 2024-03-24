@@ -74,7 +74,7 @@
     border-radius: 8px;
 }
 #blog-info a:hover .site-name {
-    color: #4e57ef !important;
+    color: #4e57ef;
     position: relative;
     text-shadow: 0 0 transparent;
 }
@@ -99,7 +99,7 @@
         border-radius: 0;
     }
     #blog-info a:hover .site-name {
-        color: var(--icat-blue) !important;
+        color: #4e57ef;
         position: relative;
         text-shadow: 2px 2px 4px rgba(0,0,0,0.15);
     }
