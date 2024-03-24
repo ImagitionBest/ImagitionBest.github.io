@@ -29,7 +29,7 @@
 }
 /*子菜单横向布局*/
 
-#site-name::after{
+#site-name:hover:after{
     opacity: 0;
     background-color: var(--lyx-theme)!important;
     border-radius: 8px;
