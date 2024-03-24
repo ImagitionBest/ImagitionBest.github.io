@@ -8,12 +8,12 @@
 /* 菜单栏居中 */
 
 #blog-info a:hover {
-    background: var(--icat-blue);
+    background: #4e57ef;
     transition: background .3s;
     border-radius: 8px;
 }
 #blog-info a:hover .site-name {
-    color: var(--icat-blue) !important;
+    color: #4e57ef !important;
     position: relative;
     text-shadow: 0 0 transparent;
 }
@@ -27,7 +27,7 @@
     font-family: "iconfont" !important;
     font-size: 22px;
     line-height: 1;
-    color: var(--icat-white);
+    color: #ffffff;
     justify-content: center;
     align-items: center;
 }
