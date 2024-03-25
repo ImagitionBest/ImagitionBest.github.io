@@ -235,7 +235,7 @@
       if (current.posts.length === 0) {
         cTitle.html(simpleDateFormat(curDate, settings.titleFormat));
       } else {
-        cTitleLink = $('<a/>').attr('onclick', `pjax.loadUrl('${simpleDateFormat(curDate, settings.titleLinkFormat)}')`)
+        cTitleLink = $('<a/>').attr('href', simpleDateFormat(curDate, settings.titleLinkFormat))
           .attr('title', simpleDateFormat(curDate, settings.postsMonthTip))
           .html(simpleDateFormat(curDate, settings.titleFormat));
         cTitle.html(cTitleLink);
@@ -270,7 +270,7 @@
       var cFoot = $('<tfoot/>');
       var cFootRow = $('<tr/>');
       var cPrevPosts = $('<td/>').attr('colspan', 3);
-      var cPad = $('<td/>').html('&nbsp;');
+      var cPad = $('<td/>').html(' ');
       var cNextPosts = $('<td/>').attr('colspan', 3);
       if (current.prev) {
         cPrevPosts.html(settings.footArrows.previous + settings.months[current.prev.getMonth()])
@@ -325,7 +325,7 @@
 
             if (count.num !== 0) {
               var index = count.keys[0];
-              var cLink = $('<a>').attr('onclick', `pjax.loadUrl('${current.posts[index].link}')`).attr('title', current.posts[index].title).html(day++);
+              var cLink = $('<a>').attr('href', current.posts[index].link).attr('title', current.posts[index].title).html(day++);
               cDay.append(cLink);
             } else {
               cDay.html(day++);
