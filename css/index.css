@@ -3284,17 +3284,17 @@ h1.page-title + .tag-cloud-list {
   text-decoration: none;
 }
 .cal-head {
-  margin-bottom: 15px;
   position: relative;
   height: 20px;
   padding: 8px 6px 2px 6px;
+  margin-bottom: 15px;
 }
 .cal-prev,
 .cal-next {
   position: absolute;
   top: 9px;
-  width: 16px;
-  height: 18px;
+  width: 9px;
+  height: 10px;
   padding: 3px 4px;
   border: 1px solid transparent;
   color: #333;
@@ -3330,46 +3330,38 @@ h1.page-title + .tag-cloud-list {
 }
 .cal-title a {
   border: 1px solid transparent;
-  color: #9f9f9f;
+  color: #f76b61;
 }
 .cal,
 .cal th,
 .cal td {
-  border: 1px solid #d1d1d1;
+  border: none;
 }
 .cal {
-  display: table;
-  border-collapse: separate;
+  border-collapse: collapse;
   border-spacing: 0;
-  border-width: 1px 0 0 1px;
   table-layout: fixed;
   width: 100%;
   margin: 0;
 }
 .cal th {
-  background: #9f9f9f;
-  color: #fff;
-  border-width: 0 1px 1px 0;
-  font-weight: 700;
-}
-.cal td {
-  border-width: 0 1px 1px 0;
+  background: rgba(0,0,0,0);
+  color: #000;
+  font-weight: 900 !important;
 }
 .cal tbody a {
-  background-color: #007acc;
+  background-color: #f76b61;
   color: #fff;
   display: block;
   font-weight: 700;
+  border: 1px solid #fff;
 }
 .cal tbody .cal-today {
-  background-color: #66ecfd;
-  color: #fff;
+  background-color: #ffdfdd;
+  color: #f76b61;
 }
 .cal .cal-gray {
-  color: #bbb8b8;
-}
-[data-theme='dark'] .cal .cal-gray {
-  color: #505050;
+  color: #ddd;
 }
 .cal th,
 .cal td {
@@ -3378,20 +3370,19 @@ h1.page-title + .tag-cloud-list {
   padding: 0;
   text-align: center;
 }
-[data-theme='dark'] .cal .cal-foot {
-  color: #9f9f9f;
-}
-.cal .cal-foot {
-  color: #2ca6cb;
-}
 .cal-title a:hover,
 .cal-prev:hover,
 .cal-next:hover,
 .cal .cal-foot:hover,
-.cal .cal-foot:focus,
+.cal .cal-foot:focus {
+  cursor: pointer;
+  background-color: transparent;
+  cursor: pointer;
+  color: #42d3d8;
+}
 .cal tbody a:hover,
 .cal tbody a:focus {
-  background-color: #686868;
+  background-color: #ffdfdd;
   color: #fff;
   cursor: pointer;
 }

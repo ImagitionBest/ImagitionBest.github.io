@@ -1,9 +1,7 @@
 /**
  * Calendar - displays a calendar of the current month. Dates appear links if there are posts for that day.
  */
-
 (function($) {
-
   var aCalendar = function(language, options, object) {
     var now = new Date();
     var nDay = now.getDate();
@@ -237,7 +235,7 @@
       if (current.posts.length === 0) {
         cTitle.html(simpleDateFormat(curDate, settings.titleFormat));
       } else {
-        cTitleLink = $('<a/>').attr('href', simpleDateFormat(curDate, settings.titleLinkFormat))
+        cTitleLink = $('<a/>').attr('onclick', `pjax.loadUrl('${simpleDateFormat(curDate, settings.titleLinkFormat)}')`)
           .attr('title', simpleDateFormat(curDate, settings.postsMonthTip))
           .html(simpleDateFormat(curDate, settings.titleFormat));
         cTitle.html(cTitleLink);
@@ -327,7 +325,7 @@
 
             if (count.num !== 0) {
               var index = count.keys[0];
-              var cLink = $('<a>').attr('href', current.posts[index].link).attr('title', current.posts[index].title).html(day++);
+              var cLink = $('<a>').attr('onclick', `pjax.loadUrl('${current.posts[index].link}')`).attr('title', current.posts[index].title).html(day++);
               cDay.append(cLink);
             } else {
               cDay.html(day++);
@@ -375,8 +373,8 @@
     root: '/calendar/',
     url: '/calendar.json'
   };
-  $(document).ready(function () {
-    $('#calendar').aCalendar('zh-CN');//'zh-CN'请根据自己博客的语言选择
-  });  
-  
+
 }(jQuery));
+$(document).ready(function () {
+  $("#calendar").aCalendar("zh-CN");
+});
