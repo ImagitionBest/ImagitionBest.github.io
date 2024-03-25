@@ -111,10 +111,10 @@
     position: relative;
     display: block;
     padding: 6px 30px 6px 22px;
-    color: #4e57ef;
+    color: #3182ff;
     font-size: 1.15em;
     border: var(--style-border-always);
-    background: #4e57ef; /*color-#4e57ef*/
+    background: var(--icat-card-bg);
     font-size: 14px;
     border-radius: 12px;
 }
@@ -173,7 +173,7 @@
     padding: 8px;
     border-radius: 12px;
     border: var(--style-border-always);
-    background: #4e57ef; /*color-#4e57ef*/
+    background: var(--icat-card-bg);
     font-size: 20px; /*修改字号大小14px*/
 }
 #nav.hide-menu #toggle-menu {
@@ -244,7 +244,7 @@
 #sidebar #sidebar-menus .sidebar-site-data {
     padding: 0;
     margin-left: 10px;
-    background: #4e57ef; /*color-#4e57ef*/
+    background: var(--icat-card-bg);
     border-radius: 12px;
     border: var(--style-border-always);
 }
