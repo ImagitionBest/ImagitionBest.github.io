@@ -25,12 +25,12 @@
 /*菜单栏横向排布*/
 
 #blog-info a:hover {
-    background: #86c6f7;
+    background: #4e57ef;
     transition: background .3s;
     border-radius: 8px;
 }
 #blog-info a:hover .site-name {
-    color: #86c6f7;
+    color: #4e57ef;
     position: relative;
     text-shadow: 0 0 transparent;
 }
@@ -55,7 +55,7 @@
         border-radius: 0;
     }
     #blog-info a:hover .site-name {
-        color: #86c6f7;
+        color: #4e57ef;
         position: relative;
         text-shadow: 2px 2px 4px rgba(0,0,0,0.15);
     }
@@ -111,10 +111,10 @@
     position: relative;
     display: block;
     padding: 6px 30px 6px 22px;
-    color: #3182ff;
+    color: #4e57ef;
     font-size: 1.15em;
     border: var(--style-border-always);
-    background: var(--icat-card-bg);
+    background: #4e57ef; /*color-#4e57ef*/
     font-size: 14px;
     border-radius: 12px;
 }
@@ -173,7 +173,7 @@
     padding: 8px;
     border-radius: 12px;
     border: var(--style-border-always);
-    background: var(--icat-card-bg);
+    background: #4e57ef; /*color-#4e57ef*/
     font-size: 20px; /*修改字号大小14px*/
 }
 #nav.hide-menu #toggle-menu {
@@ -244,7 +244,7 @@
 #sidebar #sidebar-menus .sidebar-site-data {
     padding: 0;
     margin-left: 10px;
-    background: var(--icat-card-bg);
+    background: #4e57ef; /*color-#4e57ef*/
     border-radius: 12px;
     border: var(--style-border-always);
 }
