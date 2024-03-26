@@ -9,7 +9,7 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Just Do It</description>
-    <pubDate>Tue, 26 Mar 2024 10:53:51 GMT</pubDate>
+    <pubDate>Tue, 26 Mar 2024 10:56:49 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -25,7 +25,7 @@
       
       
       
-      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><p>欢迎阅读第1篇博客，希望你有所收获！</p><h2 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h2><ul><li>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档；</li><li>Markdown 语言是2004年由约翰·格鲁伯创建；</li><li>Markdown 编写的文档可以导出 HTML、Word、图像、PDF、Epub等多种格式的文档；</li><li>Markdown 编写的文档后缀为.md或.markdown；</li><li>Markdown 能被使用用来撰写电子书，如: Gitbook;</li></ul><hr><h3 id="标题语法"><a href="#标题语法" class="headerlink" title="标题语法"></a>标题语法</h3><p>从一级标题到六级标题，即需要在单词或汉字前加#号</p><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="strong">**<span class="emphasis">*123*</span>**</span></span><br></pre></td></tr></table></figure>]]></content:encoded>
+      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><p>欢迎阅读第1篇博客，希望你有所收获！</p><h2 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h2><ul><li>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档；</li><li>Markdown 语言是2004年由约翰·格鲁伯创建；</li><li>Markdown 编写的文档可以导出 HTML、Word、图像、PDF、Epub等多种格式的文档；</li><li>Markdown 编写的文档后缀为.md或.markdown；</li><li>Markdown 能被使用用来撰写电子书，如: Gitbook;</li></ul><hr><h3 id="标题语法"><a href="#标题语法" class="headerlink" title="标题语法"></a>标题语法</h3><p>从一级标题到六级标题，即需要在单词或汉字前加#号</p><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="strong">**<span class="emphasis">*123*</span>**</span></span><br></pre></td></tr></table></figure><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Man<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content:encoded>
       
       
       <category domain="http://example.com/categories/Markdown/">Markdown</category>
