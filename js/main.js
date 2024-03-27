@@ -877,13 +877,3 @@ document.addEventListener('DOMContentLoaded', function () {
   unRefreshFn()
 })
 
-
-window.onload = function() {
-  var images = document.querySelectorAll('.image-container img');
-  images.forEach(function(image) {
-      var container = image.parentElement;
-      container.style.width = image.width + 'px';
-      container.style.height = image.height + 'px';
-  });
-};
-
