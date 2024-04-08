@@ -1,1 +1,1 @@
-var posts=["2024/04/07/第3篇博客-利用Github-jsDelivr搭建高速图床/","2024/04/08/第5篇博客-Butterfly主题-一图流背景与顶部图修改/","2024/04/08/第4篇博客-Butterfly主题添加微博热搜/","2024/03/21/第1篇博客：Markdown初级语法/","2024/03/18/第2篇博客：标签外挂/"];function toRandomPost(){window.open('/'+posts[Math.floor(Math.random() * posts.length)],"_self");};
+var posts=["posts/3b3135a6.html","posts/2004c4b4.html","posts/ddd9858b.html","posts/b5b7f0e5.html","posts/b5cbad33.html"];function toRandomPost(){window.open('/'+posts[Math.floor(Math.random() * posts.length)],"_self");};
