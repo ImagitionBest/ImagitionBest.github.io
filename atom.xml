@@ -6,7 +6,7 @@
   <link href="https://www.93cloud.online/atom.xml" rel="self"/>
   
   <link href="https://www.93cloud.online/"/>
-  <updated>2024-04-08T13:41:40.676Z</updated>
+  <updated>2024-04-10T02:58:59.960Z</updated>
   <id>https://www.93cloud.online/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第7篇博客: Butterfly主题 底部页脚栏美化</title>
+    <link href="https://www.93cloud.online/posts/efd59d47.html"/>
+    <id>https://www.93cloud.online/posts/efd59d47.html</id>
+    <published>2024-04-10T02:19:32.000Z</published>
+    <updated>2024-04-10T02:58:59.960Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h2 id="前言">前言</h2><p>Butterfly初始的页脚<code>Footer</code>较为单调，因此我们可以对其进行调整，美化我们的博客页面。本文将详细讲述博客底部运行时间以及<code>Github</code>徽标的制作和添加，大家也可以根据自己的喜好进行修改</p><p>内容参考：</p><div class="tag link"><a class="link-card" title="Leonus" href="https://blog.leonus.cn/"><div class="left"><img src="https://q1.qlogo.cn/g?b=qq&nk=990320751&s=5"/></div><div class="right"><p class="text">Leonus</p><p class="url">https://blog.leonus.cn/</p></div></a></div><p>效果如下：<br><img src="https://cdn.jsdelivr.net/gh/ImagitionBest/image@main/%E5%8D%9A%E5%AE%A2%E9%A1%B5%E8%84%9A%E7%BE%8E%E5%8C%961.png" alt="图1"></p><p>欢迎阅读第7篇博客，希望你有所收获！</p><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;js&#92;APlayer.min.js&quot; class=&quot;aplayer-se</summary>
+      
+    
+    
+    
+    <category term="博客美化" scheme="https://www.93cloud.online/categories/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/"/>
+    
+    
+    <category term="博客美化" scheme="https://www.93cloud.online/tags/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/"/>
+    
+    <category term="页脚修改" scheme="https://www.93cloud.online/tags/%E9%A1%B5%E8%84%9A%E4%BF%AE%E6%94%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>第6篇博客: SEO 优化及站点被搜索引擎收录设置</title>
